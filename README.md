@@ -8,8 +8,8 @@ The application is built entirely using **Android Studio** and leverages **Googl
 
 | Feature | Description | Firebase Database Used |
 | :--- | :--- | :--- |
-| **Daily Carbon Footprint Tracker** | Records daily activities (transportation, energy consumption, food) and calculates the estimated carbon footprint in real-time. | **Firestore** (for structured daily logs/transactions) | **Firestore** (to store user profiles and recommendation models) | **Realtime Database** (for instant score updates and rapid synchronization) |
-| **Challenges & Streaks** | Users can join weekly green challenges and track their streaks to maintain good habits. | **Firestore** (for challenge data and progress tracking) |
+| **Daily Carbon Footprint Tracker** | Records daily activities (transportation, energy consumption, food) and calculates the estimated carbon footprint in real-time. | **Firestore** (for structured daily logs/transactions) | **Firestore** (to store user profiles and posts) | **Realtime Database** (for rapid synchronization and realtime notidication) |
+| **Eco Tips and Posts** | Users can join weekly green challenges and share posts related to greeb habits. | **Firestore** (for challenges and posts) |
 | **User Authentication** | Secure sign-up and login using Firebase Authentication. | **Firebase Auth** |
 
 ## 🛠️ Tech Stack & Dependencies
